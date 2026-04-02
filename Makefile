@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -I./include
+CFLAGS = -Wall -Wextra -I./include -g
 
 SRC = src/main.c src/pcb.c src/algorithms.c
 OBJ = $(SRC:.c=.o)

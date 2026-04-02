@@ -13,7 +13,8 @@ int main(void) {
 
   int count = 3;
 
-  fcfs(processes, count);
+  // fcfs(processes, count);
+  round_robin(processes, count, 4);
 
   for (int i = 0; i < count; i++) {
     printf("PID %d | wait: %d | turnaround: %d\n",

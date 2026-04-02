@@ -4,5 +4,6 @@
 #include "pcb.h"
 
 void fcfs(PCB *processes, int count);
+void round_robin(PCB *processes, int count, int quantum);
 
 #endif // ALGORITHMS_H
